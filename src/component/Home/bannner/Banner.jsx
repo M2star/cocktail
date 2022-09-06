@@ -15,7 +15,7 @@ const Banner = ({ handleScrollMenu}) => {
           <p>we made fresh and best cocktails with different brand drinks</p>
         </div>
       </div>
-      <img src ={cocktailImg} className="header-img" alt='bannner' />
+      <img src ={cocktailImg} className="header-img" alt='bannner' style={{width:"50%"}} />
     </header>
   )
 }

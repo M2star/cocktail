@@ -22,3 +22,24 @@
     font-size: .8rem;
 }
  
+@media (max-width:375px) {
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .logo img{
+        width: 50%;
+    }
+    .logo span{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .logo p{
+        font-size: .6rem;
+    }
+     
+}
