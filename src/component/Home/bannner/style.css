@@ -1,0 +1,62 @@
+header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding:0.5rem ;
+height: 100vh;
+
+}
+
+.header-img{
+    margin: 0rem 15rem;
+    width: 60%;
+    align-self: center;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.content-main h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.content-main p{
+    font-weight: 500 ;
+}
+
+
+
+
+@media(max-width:768px) {
+    .content-main h1{
+       font-size: 1.2rem;
+       margin-bottom: 1rem; 
+    }
+
+    .content-main p{
+        font-size: .8rem;
+    }
+
+    .content-main button{
+        font-size: .8rem;
+        width: 150px;
+        padding: .5rem 1rem;
+        margin-top: 1.5rem ;
+    }
+    
+    .header-img{
+        width: 30%;
+
+    }
+}
