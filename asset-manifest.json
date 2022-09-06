@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cocktail/static/css/main.0c82941d.css",
+    "main.js": "/cocktail/static/js/main.1f63299e.js",
+    "static/media/Cocktail.png": "/cocktail/static/media/Cocktail.ae07a901ab3471a3b1b7.png",
+    "static/media/pngwing.com.png": "/cocktail/static/media/pngwing.com.64a8ef3c2a858b0886ff.png",
+    "index.html": "/cocktail/index.html",
+    "main.0c82941d.css.map": "/cocktail/static/css/main.0c82941d.css.map",
+    "main.1f63299e.js.map": "/cocktail/static/js/main.1f63299e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c82941d.css",
+    "static/js/main.1f63299e.js"
+  ]
+}
