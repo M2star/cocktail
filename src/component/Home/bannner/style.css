@@ -60,3 +60,26 @@ height: 100vh;
 
     }
 }
+
+@media(max-width:535px) {
+    .content-main h1{
+       font-size: .8rem;
+       margin-bottom: .5rem; 
+    }
+
+    .content-main p{
+        font-size: .5rem;
+    }
+
+    .content-main button{
+        font-size: .5rem;
+        width: 150px;
+        padding: .5rem 1rem;
+        margin-top: 1.5rem ;
+    }
+    
+    .header-img{
+        width: 30%;
+
+    }
+}
